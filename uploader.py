@@ -18,10 +18,10 @@ import sys
 reload(sys)
 sys.setdefaultencoding("utf-8")
 redis = r.StrictRedis(host='localhost', port=6379, db=0,decode_responses=True)
-token = "TOKEN"
+token = "283893363:AAGOsSt5EtKtnqpELDds0tzM0SNX6Tk6J4k"
 -- YOUR TOKEB HERE :[
 bot = telebot.TeleBot(token)
-opizo_email = 'besthkrboy@gmail.com'
+opizo_email = 'mori13796@gmail.com'
 start_msg = '*hi mr :) dev by : @MuteTeam and @MutePuker*'
 
 
@@ -76,7 +76,7 @@ def all(m):
             j = opeen.open(link)
             lin1 = j.read()
             bot.send_message(m.chat.id,'در حال آپلود فایل....')
-            bot.send_message(m.chat.id,'<b>تبریک فایل آپلود شد!</b>\n\n<b>لینک فایل شما:</b>\n{}\n\n<b>ساخته شده توسط:</b> \nMuteTeam | @MuteTeam'.format(lin1),parse_mode='HTML')
+            bot.send_message(m.chat.id,'<b>تبریک فایل آپلود شد!</b>\n\n<b>لینک فایل شما:</b>\n{}\n\n<b>ساخته شده توسط:</b> \nMoreza4718 | @morteza4718'.format(lin1),parse_mode='HTML')
   except:
    bot.send_message(m.chat.id,link1)
 
